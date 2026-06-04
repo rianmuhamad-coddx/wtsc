@@ -1,0 +1,6 @@
+{
+  "name": "White Security",
+  "description": "White Security (WhiteHat Company Group) - Secure Today, Protect Tomorrow. Cyber Security, Information Technology, and Digital Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
