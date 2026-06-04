@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# White Security - Cybersecurity Services
 
-# Run and deploy your AI Studio app
+A modern cybersecurity services landing page built with Next.js, React, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/ff80d451-5e93-4c0e-8879-2888acd48897
+- **Framework:** Next.js 15 (App Router)
+- **UI Library:** React 19
+- **Styling:** Tailwind CSS 4 + Motion (Framer Motion)
+- **AI Integration:** Google Gemini AI API (via `@google/genai`)
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+### Environment Variables
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Copy `.env.example` to `.env.local` and fill in the values:
+
+```
+GEMINI_API_KEY="your_gemini_api_key"
+APP_URL="http://localhost:3000"
+```
+
+## Deployment
+
+Push to GitHub — Vercel auto-deploys from the `main` branch.
+
+## License
+
+MIT
